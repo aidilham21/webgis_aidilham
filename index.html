@@ -64,7 +64,7 @@
             letter-spacing: 0.5px;
             line-height: 1.1;
         }
-        #about-btn, #legend-btn {
+        #about-btn, #legend-btn, #profile-btn {
             background-color: #f8f9fa;
             color: #1e3c72;
             border: none;
@@ -73,8 +73,14 @@
             cursor: pointer;
             font-weight: 500;
             transition: background-color 0.3s ease;
+            text-decoration: none;
+            font-family: inherit;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
         }
-        #about-btn:hover, #legend-btn:hover {
+        #about-btn:hover, #legend-btn:hover, #profile-btn:hover {
             background-color: #e2e6ea;
         }
         #header-buttons {
@@ -305,6 +311,7 @@
                 </div>
             </div>
             <div id="header-buttons">
+                <a href="https://aidilham21.github.io/CV-aidil/" target="_blank" id="profile-btn"><i class="fas fa-user"></i> Profil</a>
                 <button id="legend-btn"><i class="fas fa-map"></i> Legenda</button>
                 <button id="about-btn"><i class="fas fa-info-circle"></i> Tentang</button>
             </div>
